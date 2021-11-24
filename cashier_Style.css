@@ -1,0 +1,276 @@
+body{
+  margin: 0;
+  padding:0;
+  overflow:none;
+  font-family:Arial, Helvetica, sans-serif;
+  /* background-color:rgb(226, 226, 226); */
+  /* background-image: url('tree-276014_1920.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.clr{
+  clear: both;
+}
+
+nav{
+  background-color: white;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav h3{
+  font-size:2rem;
+  padding: 5px 15px;
+  margin: 7px 40px 7px 0px;
+  background-color: rgb(24, 9, 231);
+  color: rgb(248, 248, 248);
+  border-radius: 10px;
+  text-align: center;
+}
+
+nav ul{
+  flex: 1 ;
+  list-style: none;
+  padding: 5px 0px 0px 20px;
+}
+
+nav ul li{
+  display: inline;
+  padding-right: 20px;
+}
+
+nav ul a{
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 3px;
+}
+nav ul a:hover{
+  padding:5px;
+  transition: ease-in-out 0.3s;
+  background-color: blue;
+  color: white;
+}
+
+.container{
+  display: flex;
+  background-color:rgb(226, 226, 226);
+}
+
+
+#section1{
+  display: flex;
+  width: 50%;
+  box-sizing: border-box;
+  border-right: 1px solid gray;
+  margin: 20px 5px 5px 5px;
+  height: 85vh;
+  padding-left: 10px;
+}
+#section1 .form1{
+  width: 55%;
+  margin-left: 5px;
+}
+#section1 .form1 h3{
+  font-size: 2rem;
+  margin: 0;
+  text-decoration: underline rgb(114, 114, 114) 7px;
+  color: rgb(0, 17, 255);
+  padding-bottom: 1.7rem;
+}
+#section1 .form1 label{
+  display: block;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-family: cursive;
+  padding-bottom: 3px;
+  color: rgb(131, 131, 131);
+}
+#section1 .form1 input{
+  width: 80%;
+  font-size: 1.2rem;
+  padding:5px;
+  margin-bottom:15px;
+  border-radius: 5px;
+  border: 1px greenyellow solid;
+  outline: none;
+}
+#section1 .form1 button{
+  display: block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  width:25%;
+  margin-top: 10px;
+  margin-left: 6rem;
+  background-color:rgb(29, 29, 29);
+  color: white;
+}
+#section1 .form1 button:hover{
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+
+#section1 .container{
+  display: flex;
+  flex-direction: column;
+  width: 45% ;
+}
+
+#section1 .camScan{
+  border: 1px dotted green;
+  border-radius: 5px;
+  background-color: rgba(82, 8, 255, 0.397);
+  color: white;
+  height: 55vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-right: 1rem;
+  margin-bottom: 4rem;
+  padding: 3px;
+}
+
+.camScan #videoElement{
+  height: 40vh;
+  width: 19vw;
+  margin: 0;
+  padding: 0;
+}
+
+#section1 .btn{
+  font-size: 1.3rem;
+  width: 50%;
+  font-weight: bold;
+  margin: 0px 0px 20px 65px;
+  background-color: rgb(138, 138, 138);
+  color: white;
+}
+
+
+
+#section2{
+  width: 50%;
+  box-sizing: border-box;
+  margin: 5px;
+  margin-bottom: 0;
+}
+
+/* #section2 .form2{
+  background-color: rgb(156, 156, 156);
+} */
+
+#section2 .form2 h3{
+  font-size: 1.5rem;
+  text-decoration: underline rgb(114, 114, 114) 7px;
+  color: rgb(0, 17, 255);
+  padding: 0;
+  margin: 5px 0px 15px 0px;
+}
+#section2 .form2 label{
+  font-size: 1rem;
+  font-style: italic;
+  font-family: cursive;
+  padding: 0;
+  margin: 0;
+  color: rgb(131, 131, 131);
+}
+#section2 .form2 input{
+  font-size: 17px;
+  padding:5px 0 5px 3px;
+  margin: 0;
+  margin-bottom: 7px;
+  outline: none;
+  border: 1px greenyellow solid;
+  border-radius: 3px;
+}
+#section2 .form2 input[type="email"]{
+  width: 40%;
+}
+#section2 .form2 button{
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Verdana;
+  background-color: blue;
+  color: white;
+  padding: 3px 10px ;
+  border: 3px rgb(9, 139, 245) solid;
+  border-radius: 4px;
+}
+#section2 .form2 button:hover{
+  transition: ease-in-out 0.2s;
+  padding: 4px 14px;
+}
+
+
+.viewBill section{
+  border: 1px greenyellow solid;
+  background-color: white;
+  width: 98%;
+  height: 53vh;
+  overflow:scroll;
+  padding: 5px;
+  margin-bottom: 12px;
+}
+
+.viewBill section h3, h4{
+  text-align:center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: Georgia;
+  margin-top:0;
+  margin-bottom:5px;
+  text-decoration:underline;
+  text-decoration-color:blue;
+}
+
+.viewBill section .time{
+  float:right;
+  font-size:0.9rem;
+  font-family: Verdana;
+  font-style: italic;
+  /*background-color:cornflowerblue;*/
+}
+
+.viewBill section .date{
+  float:left;
+  font-size: 0.9rem;
+  font-family: Verdana;
+  font-style: italic;
+  border: none;
+  outline: none;
+  /*background-color:cornflowerblue;*/
+}
+
+.viewBill section table{
+  width: 100%;
+  text-align: center;
+  font-family:Verdana;
+}
+.viewBill section table th{
+  padding-bottom: 10px;
+}
+.viewBill section table td{
+  padding-bottom:5px;
+}
+
+.viewBill #total{
+  text-align:center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(131, 131, 131);
+  margin-left: 25%;
+}
+.viewBill #totalamount{
+  width: 50%;
+  font-size: 1.7rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
